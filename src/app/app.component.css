@@ -1,6 +1,14 @@
-.footer__css {
-    min-height: 100%;
-    margin-bottom: -100px;
-    /* Altura do footer */
+.container {
+    width: auto;
+    margin: auto;
+    margin-bottom: 50px;
 
+}
+
+
+.container__footer {
+    width: auto;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
 }

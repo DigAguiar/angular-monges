@@ -1,0 +1,36 @@
+.monge__list {
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;  
+    justify-content: space-evenly;
+    align-content: center;  
+     
+}
+
+.monge__card {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 200px; 
+    height: max-content;
+    text-align: center;
+
+}
+
+
+a.botao {
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: #ffffff; 
+    background-color: #007bff; 
+    border: 1px solid #007bff; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+
+a.botao:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Altera sombra */
+}

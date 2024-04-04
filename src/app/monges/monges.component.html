@@ -1,1 +1,12 @@
 <p>monges works!</p>
+
+<section class="monge__list" >
+    <div class="monge__card" *ngFor="let monge of listaMonges">
+        <a routerLink="">{{monge.nome}}</a>
+        <p> idade: {{monge.idade}} </p>
+        <br>
+        
+        <a routerLink="" class="botao">Checar</a>
+    
+    </div>
+</section>
