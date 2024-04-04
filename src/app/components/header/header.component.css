@@ -5,9 +5,15 @@
   }
   
   .navbar-brand {
-    
+    color: #333;
     font-size: 24px;
   }
+
+  .navbar-brand:hover {
+    color: #1f9bed;
+    font-size: 24px;
+  }
+    
   
   .navbar-nav {
     list-style: none;
@@ -34,23 +40,27 @@
     background-color: #f4f4f4;
     padding: 20px 0;
     text-align: center;
+
   }
   
-  header h1 {
+  header h3 {
     margin-bottom: 10px;
     color: #333;
   }
   
-  header p {
-    color: #666;
-    font-size: 18px;
-  }
   
   a {
     margin: 15px;
   }
 
   a.plus-button {
+    font-size: 25px;
+    color: #333;
+  }
+
+  a.plus-button:hover {
+    color: #1f9bed;
+    text-decoration: none;
     font-size: 25px;
   }
 
