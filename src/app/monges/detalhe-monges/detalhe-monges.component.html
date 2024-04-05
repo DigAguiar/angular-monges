@@ -1,1 +1,18 @@
-<p>detalhe-monges works!</p>
+<label for="">Nome:</label>
+<span>
+    {{mongeEscolhido.nome}}
+</span>
+
+<br>
+
+<label for="">Idade: </label>
+<span>
+    {{mongeEscolhido.idade}} 
+</span>
+
+<section *ngIf="mongeEscolhido.livro">
+    <label for="">Livro: </label>
+    <p> {{mongeEscolhido.livro | json}} </p>
+</section>
+
+

@@ -17,9 +17,10 @@ export class ListaMongeService {
     return this.listaMonges.length;
   }
 
-  // getMongeById () : IMonge[] {
-    
-  // }
+  getMongeById (mongeId : number) : IMonge {
+    return this.listaMonges.find(monge => monge.id === mongeId)!;
+
+  }
 
 
   addNewMonge (novoMonge : IMonge) : void {

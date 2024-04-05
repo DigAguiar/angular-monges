@@ -5,7 +5,7 @@ import { DetalheMongesComponent } from './detalhe-monges/detalhe-monges.componen
 
 const routes: Routes = [
   { path: '', component: MongesComponent },
-  {path: '/:{id}', component: DetalheMongesComponent}
+  {path: ':id', component: DetalheMongesComponent}
 
 ];
 
