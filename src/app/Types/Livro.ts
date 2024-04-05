@@ -1,6 +1,6 @@
 export interface ILivro {
-    nome : string;
-    autorLivro : string;
+    titulo : string;
+    autor : string;
     anoLancamento : number;
     assuntoLivro : string;
 }
