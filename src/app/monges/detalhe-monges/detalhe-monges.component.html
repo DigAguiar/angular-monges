@@ -2,17 +2,31 @@
 <span>
     {{mongeEscolhido.nome}}
 </span>
-
 <br>
-
 <label for="">Idade: </label>
 <span>
     {{mongeEscolhido.idade}} 
 </span>
+<br>
+<label for="Ocupação">Ocupação</label>
+<span>
+    {{mongeEscolhido.ocupacao}}
+</span>
+<br>
+<label for="Data Nascimento">Data</label>
+    <span>
+        {{mongeEscolhido.dataNascimento | date : 'dd/MM/yyyy'}}
+    </span>
 
-<section *ngIf="mongeEscolhido.livro">
-    <label for="">Livro: </label>
-    <p> {{mongeEscolhido.livro | json}} </p>
+
+
+
+
+<section *ngIf="mongeEscolhido.livros">
+    <div *ngFor="let livro of mongeEscolhido.livros">
+        <label for="">Livro: </label>
+        <p> {{livro | json}} </p>
+    </div>
 </section>
 
 
