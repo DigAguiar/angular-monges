@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { ListaMongeService } from '../../services/lista-monge.service';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-header',
@@ -9,7 +11,8 @@ import { ListaMongeService } from '../../services/lista-monge.service';
 export class HeaderComponent {
 
   constructor(
-    private listaMongeService: ListaMongeService
+    private listaMongeService: ListaMongeService,
+    private router : Router
   ) { }
 
   qtdeMonges!: number;
@@ -17,6 +20,10 @@ export class HeaderComponent {
 
   ngOnInit() {
     this.qtdeMonges = this.listaMongeService.getTamanhoListaMonges();
+  }
+
+  atualizarPagina () {
+    this.router.navigate(['/']);
   }
 
 
