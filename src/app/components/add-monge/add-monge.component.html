@@ -1,1 +1,25 @@
-<p>add-monge works!</p>
+<br>
+<label for="">Nome: </label>
+<input type="text" [(ngModel)]="mongeAdicionado.nome" >
+<p> {{mongeAdicionado.nome}} </p>
+
+
+<label for="">Idade: </label>
+<input type="number" [(ngModel)]="mongeAdicionado.idade">
+<p> {{mongeAdicionado.idade}} </p>
+
+
+<label for="">Ocupação: </label>
+<input type="text" [(ngModel)]="mongeAdicionado.ocupacao">
+<p> {{mongeAdicionado.ocupacao}} </p>
+
+
+<label for="">Data de Nascimento: </label>
+<input type="date" [(ngModel)]="mongeAdicionado.dataNascimento">
+<p> {{mongeAdicionado.dataNascimento | date : 'dd/MM/yyyy'}} </p>
+
+
+
+
+<button (click)="adicionarMonge()">Salvar</button>
+<button (click)="limparFormulario()">Limpar</button>

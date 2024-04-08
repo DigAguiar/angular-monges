@@ -1,13 +1,16 @@
-<p>monges works!</p>
+<input type="text" placeholder="Filter by Name" #filter>
+<button (click)="filterResults(filter.value)">Search </button>
+    
+    
+    <section class="monge__list" >
+        <div class="monge__card" *ngFor="let monge of listaMonges">
+            <p> {{monge.nome}} </p>
+            <p> idade: {{monge.idade}} </p>
+            <br>
+            
+            <a routerLink='{{monge.id}}' class="botao">Checar</a>
+            <button (click)="apagarMonge(monge.id)"> Apagar</button>
+            
+        </div>
+    </section>
 
-<section class="monge__list" >
-    <div class="monge__card" *ngFor="let monge of listaMonges">
-        <p> {{monge.nome}} </p>
-        <p> idade: {{monge.idade}} </p>
-        <br>
-        
-        <a routerLink='{{monge.id}}' class="botao">Checar</a>
-        
-
-    </div>
-</section>

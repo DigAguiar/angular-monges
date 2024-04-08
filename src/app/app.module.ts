@@ -9,12 +9,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AddMongeComponent } from './components/add-monge/add-monge.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { LoginPageComponent } from './components/login-page/login-page.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SearchBarComponent,
     FooterComponent,
     AddMongeComponent,
     PageNotFoundComponent,
@@ -22,7 +22,8 @@ import { LoginPageComponent } from './components/login-page/login-page.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration()
