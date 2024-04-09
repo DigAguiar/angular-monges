@@ -10,15 +10,17 @@ import { SearchBarService } from '../services/search-bar.service';
 })
 export class MongesComponent implements OnInit{
 
-  listaMonges : IMonge[] = [];
+  listaMonges : IMonge[] = this.listService.getAllMonges();
   
   constructor(
     private listService: ListaMongeService,
     private searchBarSerice : SearchBarService
-  ) { }
+  ) {
+    
+   }
 
   ngOnInit(): void {
-    this.listaMonges = this.listService.getAllMonges();
+    console.log("init");
   }
 
   apagarMonge (idMonge : number) : void {

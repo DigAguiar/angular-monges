@@ -1,36 +1,39 @@
 import { Injectable } from '@angular/core';
-import { IMonge, staticListMongesTS } from '../Types/Monge';
+import { IMonge, listaMongesInterface } from '../Types/Monge';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class ListaMongeService {
-  listaMonges : IMonge[] = staticListMongesTS;
+    listaMonges: IMonge[] = listaMongesInterface;
 
-  constructor() { }
+    constructor() { }
 
-  getAllMonges () : IMonge[] {
-    return this.listaMonges;
-  }
+    getAllMonges(): IMonge[] {
+        console.log(this.listaMonges);
+        return this.listaMonges;
+    }
 
-  getTamanhoListaMonges () : number {
-    return this.listaMonges.length;
-  }
+    getTamanhoListaMonges(): number {
+        return this.listaMonges.length;
+    }
 
-  getMongeById (mongeId : number) : IMonge {
-    return this.listaMonges.find(monge => monge.id === mongeId)!;
+    getMongeById(mongeId: number): IMonge {
+        return this.listaMonges.find(monge => monge.id === mongeId)!;
 
-  }
+    }
 
 
-  addNewMonge (novoMonge : IMonge) : void {
-    this.listaMonges.push(novoMonge);
+    addNewMonge(novoMonge: IMonge): void {
+        console.log(novoMonge);
 
-  }
+        this.listaMonges.push(novoMonge);
 
-  deleteMongeById (idMongeDeletar : number) : void {
-    
-  }
+    }
+
+    deleteMongeById(idMongeDeletar: number): void {
+
+    }
 
 
 

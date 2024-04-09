@@ -31,8 +31,7 @@ export class AddMongeComponent {
 
       this.mongeAdicionado.id = 1 + this.listaService.getTamanhoListaMonges();
       this.listaService.addNewMonge(this.mongeAdicionado);
-
-      this.listaService.addNewMonge(this.mongeAdicionado);      
+     
       this.limparFormulario();
 
     } else {

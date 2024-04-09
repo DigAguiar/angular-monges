@@ -10,7 +10,7 @@ export interface IMonge {
     
 }
 
-export const staticListMongesTS: IMonge[] = [
+export const listaMongesInterface: IMonge[] = [
     {
         id: 1, nome: "Diogo Monge", idade: 20, ocupacao: "Escritor", dataNascimento: new Date("2004-2-29") , livros: [
             { titulo: "Livro 1", autor: "Autor X", anoLancamento: 1899, assuntoLivro: "Historia Brasil" },
@@ -34,22 +34,22 @@ export const staticListMongesTS: IMonge[] = [
         ]
     },
     {
-        id: 5, nome: "Monge 5", idade: 60, ocupacao: "Dono de Hotel", dataNascimento: new Date("0000-0-00"), livros: [
+        id: 5, nome: "Monge 5", idade: 60, ocupacao: "Dono de Hotel", dataNascimento: new Date("1940-2-10"), livros: [
             { titulo: "Livro Registros Hotel", autor: "Autor H", anoLancamento: 1900, assuntoLivro: "Registro de hospedes" }
         ]
     },
     {
-        id: 6, nome: "Monge 6", idade: 52, ocupacao: "Estudante", dataNascimento: new Date("0000-0-00"), livros: [
+        id: 6, nome: "Monge 6", idade: 52, ocupacao: "Estudante", dataNascimento: new Date("1989-10-19"), livros: [
             { titulo: "Livro 2", autor: "Autor X", anoLancamento: 1920, assuntoLivro: "Historia Brasil 2.0" }
         ]
     },
     {
-        id: 7, nome: "Monge 7", idade: 23, ocupacao: "Professor", dataNascimento: new Date("0000-0-00"), livros: [
+        id: 7, nome: "Monge 7", idade: 23, ocupacao: "Professor", dataNascimento: new Date("2001-11-11"), livros: [
             { titulo: "End of Beginning", autor: "Autor R", anoLancamento: 1821, assuntoLivro: "Livro de romance" }
         ]
     },
     {
-        id: 8, nome: "Monge 8", idade: 47, ocupacao: "", dataNascimento: new Date("0000-0-00"), livros: [
+        id: 8, nome: "Monge 8", idade: 47, ocupacao: "", dataNascimento: new Date("1930-12-20"), livros: [
             { titulo: "Filosofos Antigos e Modernos", autor: "Autor F", anoLancamento: 1949, assuntoLivro: "Filosofia e Sociolgia" }
         ]
     },
@@ -59,11 +59,11 @@ export const staticListMongesTS: IMonge[] = [
             { titulo: "Livro de animais", autor: "Desconhecido", anoLancamento: 0, assuntoLivro: "Descrição sobre carnes estranhas" }
         ]
     },
-    // {
-    //     id: 10, nome: "Monge 10", idade: 9, ocupacao: "", dataNascimento: new Date("0000-0-00"), livros: [
-    //         { titulo: "Psicologia", autor: "Autor P", anoLancamento: 1899, assuntoLivro: "Historia Brasil" }
-    //     ]
-    // },
+    {
+        id: 10, nome: "Monge 10", idade: 9, ocupacao: "", dataNascimento: new Date("1929-7-9"), livros: [
+            { titulo: "Psicologia", autor: "Autor P", anoLancamento: 1899, assuntoLivro: "Historia Brasil" }
+        ]
+    },
 
 ]
 
