@@ -11,7 +11,11 @@ export class SearchBarService {
   allMonges! : IMonge[];
 
   constructor(private listMongeService: ListaMongeService) {
-    this.allMonges = listMongeService.getAllMonges();
+    this.listMongeService.getAllMonges().then((listaMonges : IMonge[]) => {
+      this.allMonges = listaMonges;
+       
+    });
+
     this.filteredMonges = this.allMonges;
   }
 

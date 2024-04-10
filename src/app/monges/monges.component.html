@@ -1,5 +1,5 @@
-<input type="text" placeholder="Filter by Name" #filter>
-<button (click)="filterResults(filter.value)">Search </button>
+<input type="text" placeholder="Filter by Name" #filter (keyup)="filterResults(filter.value)">
+
     
     
     <section class="monge__list" >

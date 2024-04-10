@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ListaMongeService } from '../../services/lista-monge.service';
 import { Router } from '@angular/router';
+import { IMonge } from '../../Types/Monge';
 
 
 @Component({
@@ -10,17 +11,20 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent {
 
+  qtdeMonges! : number;
+  listaMonges! : IMonge[];
+  
   constructor(
     private listaMongeService: ListaMongeService,
     private router : Router
-  ) { }
+  ) {
+    this.listaMongeService.getTamanhoListaMonges().then(qtde => {
+      this.qtdeMonges = qtde;
+    })
 
-  qtdeMonges!: number;
 
+   }
 
-  ngOnInit() {
-    this.qtdeMonges = this.listaMongeService.getTamanhoListaMonges();
-  }
 
   atualizarPagina () {
     this.router.navigate(['/']);

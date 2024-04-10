@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ListaMongeService } from '../services/lista-monge.service';
 import { IMonge } from '../Types/Monge';
 import { SearchBarService } from '../services/search-bar.service';
@@ -10,20 +10,24 @@ import { SearchBarService } from '../services/search-bar.service';
 })
 export class MongesComponent implements OnInit{
 
-  listaMonges : IMonge[] = this.listService.getAllMonges();
+  listaMonges! : IMonge[];
   
   constructor(
     private listService: ListaMongeService,
     private searchBarSerice : SearchBarService
   ) {
+    this.listService.getAllMonges().then((listaMonges : IMonge[]) => {
+      this.listaMonges = listaMonges;
+       
+    });
     
-   }
-
+  }
+  
   ngOnInit(): void {
     console.log("init");
   }
 
-  apagarMonge (idMonge : number) : void {
+  apagarMonge (idMonge : number | undefined) : void {
     alert("ID do monge: " + idMonge + ", metodo de apagar ainda não existe")
   }
 

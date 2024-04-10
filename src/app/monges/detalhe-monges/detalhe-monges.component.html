@@ -1,30 +1,30 @@
 <label for="">Nome:</label>
 <span>
-    {{mongeEscolhido.nome}}
+    {{mongeEscolhido?.nome}}
 </span>
 <br>
 <label for="">Idade: </label>
 <span>
-    {{mongeEscolhido.idade}} 
+    {{mongeEscolhido?.idade}} 
 </span>
 <br>
 <label for="Ocupação">Ocupação: </label>
 <span>
-    {{mongeEscolhido.ocupacao}}
+    {{mongeEscolhido?.ocupacao}}
 </span>
 <br>
 <label for="Data Nascimento">Data de nascimento: </label>
     <span>
-        {{mongeEscolhido.dataNascimento | date}}
+        {{mongeEscolhido?.dataNascimento | date}}
     </span>
 
 
 
 
 
-<section *ngIf="mongeEscolhido.livros">
+<section *ngIf="mongeEscolhido?.livros">
     <div *ngFor="let livro of mongeEscolhido.livros">
-        <label for="">Livro: </label>
+        <label for="">Livro(s): </label>
         <p> {{livro | json}} </p>
     </div>
 </section>

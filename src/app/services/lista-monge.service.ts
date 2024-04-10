@@ -1,42 +1,50 @@
 import { Injectable } from '@angular/core';
-import { IMonge, IListaMonges } from '../Types/Monge';
+import { IMonge } from '../Types/Monge';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
     providedIn: 'root'
 })
 export class ListaMongeService {
-    listaMonges: IMonge[] = IListaMonges;
+    url: string = 'http://localhost:3000/monges';
+    listaMonges!: IMonge[];
+    qtde: number = 0;
 
-    constructor() { }
+    constructor(
+        private http : HttpClient
+    ) { }
 
-    getAllMonges(): IMonge[] {
-        console.log(this.listaMonges);
-        return this.listaMonges;
+    async getAllMonges(): Promise<IMonge[]> {
+        const data = await fetch(this.url);
+
+        return await data.json() ?? {};
     }
 
-    getTamanhoListaMonges(): number {
-        return this.listaMonges.length;
+    async getMongeById(mongeId: number): Promise<IMonge> {
+        const data = await fetch(`${this.url}/${mongeId}`);
+        return await data.json() ?? {};
     }
 
-    getMongeById(mongeId: number): IMonge {
-        return this.listaMonges.find(monge => monge.id === mongeId)!;
 
+    async getTamanhoListaMonges(): Promise<number> {
+        const listaMonges = await this.getAllMonges();
+        this.listaMonges = listaMonges;
+        this.qtde = this.listaMonges.length;
+        return this.qtde;
+
+        
     }
-
 
     addNewMonge(novoMonge: IMonge): void {
-        console.log(novoMonge);
+        this.http.post(this.url,novoMonge).subscribe(data => {
+            console.log("Monge adicionado com sucesso!");
+        }, err => {
+            console.log("Erro: ",err)
+        });
 
-        this.listaMonges.push(novoMonge);
+
 
     }
-
-    deleteMongeById(idMongeDeletar: number): void {
-
-    }
-
-
-
 
 
 

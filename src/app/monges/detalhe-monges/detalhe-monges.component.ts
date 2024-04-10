@@ -8,23 +8,26 @@ import { IMonge } from '../../Types/Monge';
   templateUrl: './detalhe-monges.component.html',
   styleUrl: './detalhe-monges.component.css'
 })
-export class DetalheMongesComponent implements OnInit{
-  
+export class DetalheMongesComponent {
   id! : number;
   mongeEscolhido! : IMonge;
 
 
   constructor (
-    private listaMonge : ListaMongeService,
+    private listaMongeService : ListaMongeService,
     private activatedRoute : ActivatedRoute
-  ) { }
-  
-  ngOnInit(): void {
-    this.id = Number(this.activatedRoute.snapshot.paramMap.get('id'));
-    this.mongeEscolhido = this.listaMonge.getMongeById(this.id);
+  ) {
 
-    
-  }
+    const mongeId = parseInt(this.activatedRoute.snapshot.params['id']);
+
+    this.listaMongeService.getMongeById(mongeId).then(monge => {
+      console.log(monge)
+      this.mongeEscolhido = monge;
+    });
+
+
+   }
+
 
 
 
