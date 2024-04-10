@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { IMonge, listaMongesInterface } from '../Types/Monge';
+import { IMonge, IListaMonges } from '../Types/Monge';
 
 @Injectable({
     providedIn: 'root'
 })
 export class ListaMongeService {
-    listaMonges: IMonge[] = listaMongesInterface;
+    listaMonges: IMonge[] = IListaMonges;
 
     constructor() { }
 

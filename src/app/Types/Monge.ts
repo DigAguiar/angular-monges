@@ -10,7 +10,7 @@ export interface IMonge {
     
 }
 
-export const listaMongesInterface: IMonge[] = [
+export const IListaMonges: IMonge[] = [
     {
         id: 1, nome: "Diogo Monge", idade: 20, ocupacao: "Escritor", dataNascimento: new Date("2004-2-29") , livros: [
             { titulo: "Livro 1", autor: "Autor X", anoLancamento: 1899, assuntoLivro: "Historia Brasil" },
@@ -65,5 +65,5 @@ export const listaMongesInterface: IMonge[] = [
         ]
     },
 
-]
+];
 
