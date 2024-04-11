@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { IMonge } from '../Types/Monge';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
     providedIn: 'root'
@@ -40,9 +41,11 @@ export class ListaMongeService {
             console.log("Monge adicionado com sucesso!");
         });
 
-
-
     }
+
+    apagarMonge(id: number | string): Observable<any> {
+        return this.http.delete(`${this.url}/${id}`);
+      }
 
 
 

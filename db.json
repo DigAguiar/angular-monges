@@ -78,14 +78,6 @@
       ]
     },
     {
-      "id": "5",
-      "nome": "DAWG",
-      "idade": 21,
-      "ocupacao": "ESTUDANTE",
-      "dataNascimento": "2004-02-29",
-      "livros": []
-    },
-    {
       "id": "6",
       "nome": "RAFAEL LIMA",
       "idade": 22,
@@ -203,7 +195,6 @@
         }
       ]
     },
-    
     {
       "id": "14",
       "nome": "Fernanda Monge",
@@ -246,21 +237,6 @@
           "autor": "Autor P",
           "anoLancamento": 2010,
           "assuntoLivro": "Negócios"
-        }
-      ]
-    },
-    {
-      "id": "17",
-      "nome": "Eduardo Monge",
-      "idade": 38,
-      "ocupacao": "Músico",
-      "dataNascimento": "1986-07-13",
-      "livros": [
-        {
-          "titulo": "Harmonia e Melodia",
-          "autor": "Autor E",
-          "anoLancamento": 2012,
-          "assuntoLivro": "Música"
         }
       ]
     },
@@ -400,21 +376,6 @@
       ]
     },
     {
-      "id": "27",
-      "nome": "Marcelo Monge",
-      "idade": 39,
-      "ocupacao": "Programador",
-      "dataNascimento": "1985-07-30",
-      "livros": [
-        {
-          "titulo": "Programação para Iniciantes",
-          "autor": "Autor M",
-          "anoLancamento": 2011,
-          "assuntoLivro": "Programação"
-        }
-      ]
-    },
-    {
       "id": "28",
       "nome": "Daniela Monge",
       "idade": 30,
@@ -428,8 +389,14 @@
           "assuntoLivro": "Enfermagem"
         }
       ]
+    },
+    {
+      "id": "29",
+      "nome": "RAFAEL AZEVEDO",
+      "idade": 21,
+      "ocupacao": "ESTUDANTE BES",
+      "dataNascimento": "2004-02-20",
+      "livros": []
     }
-
-
   ]
 }

@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AddMongeComponent } from './components/add-monge/add-monge.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
-import { LoginPageComponent } from './components/login-page/login-page.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -18,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     AddMongeComponent,
     PageNotFoundComponent,
-    LoginPageComponent
+    
   ],
   imports: [
     BrowserModule,

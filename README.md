@@ -3,4 +3,6 @@ O projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) v
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-
+## Projeto Avaliativo do UFBA-ITOMORROW
+Um SPA CRUD de monges, com sistema de adicionar,remover e ler os monges adicionados.
+Possui tambem uma barra de pesquisa com sistema de filtro por nome.
