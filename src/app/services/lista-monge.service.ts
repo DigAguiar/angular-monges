@@ -38,8 +38,6 @@ export class ListaMongeService {
     addNewMonge(novoMonge: IMonge): void {
         this.http.post(this.url,novoMonge).subscribe(data => {
             console.log("Monge adicionado com sucesso!");
-        }, err => {
-            console.log("Erro: ",err)
         });
 
 

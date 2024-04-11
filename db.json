@@ -1,27 +1,113 @@
 {
-    "monges": [
+  "monges": [
+    {
+      "id": "1",
+      "nome": "Diogo Monge",
+      "idade": 20,
+      "ocupacao": "Estudante",
+      "dataNascimento": "2004-2-29",
+      "livros": [
         {
-            "id": 1, "nome": "Diogo Monge", "idade": 20, "ocupacao": "Estudante", "dataNascimento": "2004-2-29" , "livros": [
-                { "titulo": "Hipotese do Amor", "autor": "Autor R", "anoLancamento": 2000, "assuntoLivro": "Romance" },
-                { "titulo": "Razão do Amor", "autor": "Autor R", "anoLancamento": 2000, "assuntoLivro": "Romance 2.0" }
-            ]
+          "titulo": "Hipotese do Amor",
+          "autor": "Autor R",
+          "anoLancamento": 2000,
+          "assuntoLivro": "Romance"
         },
         {
-            "id": 2, "nome": "Raul Monge", "idade": 60, "ocupacao": "Dev oracle", "dataNascimento": "1967-9-11" , "livros": []      
-        },
-        {
-            "id": 3, "nome": "Gabriela Monge", "idade": 20, "ocupacao": "Professora", "dataNascimento": "1973-2-21" , "livros": [
-                { "titulo": "Livro 1", "autor": "Autor X", "anoLancamento": 1899, "assuntoLivro": "Historia Brasil" },
-                { "titulo": "Livro 2", "autor": "Autor X", "anoLancamento": 1920, "assuntoLivro": "Historia Brasil 2.0" },
-                { "titulo": "Livro 3", "autor": "Autor X", "anoLancamento": 1920, "assuntoLivro": "Historia Brasil 3.0" },
-                { "titulo": "Livro 4", "autor": "Autor X", "anoLancamento": 1920, "assuntoLivro": "Historia Brasil 4.0" }
-            ]
-        },
-        {
-            "id": 4, "nome": "Bruno Monge", "idade": 20, "ocupacao": "Oceanografo", "dataNascimento": "2001-1-23" , "livros": [
-                { "titulo": "Livro 1", "autor": "Autor X", "anoLancamento": 1899, "assuntoLivro": "Historia Brasil" }
-            ]
+          "titulo": "Razão do Amor",
+          "autor": "Autor R",
+          "anoLancamento": 2000,
+          "assuntoLivro": "Romance 2.0"
         }
-           
-    ]
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Raul Monge",
+      "idade": 60,
+      "ocupacao": "Dev oracle",
+      "dataNascimento": "1967-9-11",
+      "livros": []
+    },
+    {
+      "id": "3",
+      "nome": "Gabriela Monge",
+      "idade": 20,
+      "ocupacao": "Professora",
+      "dataNascimento": "1973-2-21",
+      "livros": [
+        {
+          "titulo": "Livro 1",
+          "autor": "Autor X",
+          "anoLancamento": 1899,
+          "assuntoLivro": "Historia Brasil"
+        },
+        {
+          "titulo": "Livro 2",
+          "autor": "Autor X",
+          "anoLancamento": 1920,
+          "assuntoLivro": "Historia Brasil 2.0"
+        },
+        {
+          "titulo": "Livro 3",
+          "autor": "Autor X",
+          "anoLancamento": 1920,
+          "assuntoLivro": "Historia Brasil 3.0"
+        },
+        {
+          "titulo": "Livro 4",
+          "autor": "Autor X",
+          "anoLancamento": 1920,
+          "assuntoLivro": "Historia Brasil 4.0"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nome": "Bruno Monge",
+      "idade": 20,
+      "ocupacao": "Oceanografo",
+      "dataNascimento": "2001-1-23",
+      "livros": [
+        {
+          "titulo": "Livro 1",
+          "autor": "Autor X",
+          "anoLancamento": 1899,
+          "assuntoLivro": "Historia Brasil"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nome": "DAWG",
+      "idade": 21,
+      "ocupacao": "ESTUDANTE",
+      "dataNascimento": "2004-02-29",
+      "livros": []
+    },
+    {
+      "id": "6",
+      "nome": "RAIMUNDO",
+      "idade": 90,
+      "ocupacao": "APOSENTADO",
+      "dataNascimento": "1950-07-20",
+      "livros": []
+    },
+    {
+      "id": "7",
+      "nome": "CORE",
+      "idade": 40,
+      "ocupacao": "YOUTUBER",
+      "dataNascimento": "1980-09-27",
+      "livros": []
+    },
+    {
+      "id": "8",
+      "nome": "RAFAEL LIMA",
+      "idade": 22,
+      "ocupacao": "MESTRE DE RPG",
+      "dataNascimento": "2002-03-20",
+      "livros": []
+    }
+  ]
 }

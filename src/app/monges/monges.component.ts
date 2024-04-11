@@ -27,7 +27,7 @@ export class MongesComponent implements OnInit{
     console.log("init");
   }
 
-  apagarMonge (idMonge : number | undefined) : void {
+  apagarMonge (idMonge : number | string) : void {
     alert("ID do monge: " + idMonge + ", metodo de apagar ainda não existe")
   }
 
