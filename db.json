@@ -87,27 +87,349 @@
     },
     {
       "id": "6",
-      "nome": "RAIMUNDO",
-      "idade": 90,
-      "ocupacao": "APOSENTADO",
-      "dataNascimento": "1950-07-20",
-      "livros": []
-    },
-    {
-      "id": "7",
-      "nome": "CORE",
-      "idade": 40,
-      "ocupacao": "YOUTUBER",
-      "dataNascimento": "1980-09-27",
-      "livros": []
-    },
-    {
-      "id": "8",
       "nome": "RAFAEL LIMA",
       "idade": 22,
       "ocupacao": "MESTRE DE RPG",
       "dataNascimento": "2002-03-20",
       "livros": []
+    },
+    {
+      "id": "7",
+      "nome": "Julia Monge",
+      "idade": 28,
+      "ocupacao": "Designer",
+      "dataNascimento": "1996-04-12",
+      "livros": [
+        {
+          "titulo": "Design para Iniciantes",
+          "autor": "Autor J",
+          "anoLancamento": 2018,
+          "assuntoLivro": "Design"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nome": "Mariana Monge",
+      "idade": 26,
+      "ocupacao": "Arquiteta",
+      "dataNascimento": "1998-10-15",
+      "livros": [
+        {
+          "titulo": "Arquitetura Moderna",
+          "autor": "Autor M",
+          "anoLancamento": 2020,
+          "assuntoLivro": "Arquitetura"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "nome": "Carlos Monge",
+      "idade": 30,
+      "ocupacao": "Engenheiro",
+      "dataNascimento": "1994-05-15",
+      "livros": [
+        {
+          "titulo": "A Engenharia do Futuro",
+          "autor": "Autor C",
+          "anoLancamento": 2020,
+          "assuntoLivro": "Engenharia"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nome": "Ana Monge",
+      "idade": 25,
+      "ocupacao": "Médica",
+      "dataNascimento": "1999-07-20",
+      "livros": []
+    },
+    {
+      "id": "11",
+      "nome": "Pedro Monge",
+      "idade": 35,
+      "ocupacao": "Advogado",
+      "dataNascimento": "1989-11-30",
+      "livros": [
+        {
+          "titulo": "Direito e Justiça",
+          "autor": "Autor P",
+          "anoLancamento": 2015,
+          "assuntoLivro": "Direito"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "nome": "Richard Monge",
+      "idade": 35,
+      "ocupacao": "Advogado",
+      "dataNascimento": "1989-11-30",
+      "livros": [
+        {
+          "titulo": "Direito e Justiça",
+          "autor": "Autor P",
+          "anoLancamento": 2015,
+          "assuntoLivro": "Direito"
+        },
+        {
+          "titulo": "Direito Empresarial",
+          "autor": "Autor P",
+          "anoLancamento": 2019,
+          "assuntoLivro": "Direito"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "nome": "Gabriel Monge",
+      "idade": 34,
+      "ocupacao": "Fisioterapeuta",
+      "dataNascimento": "1990-05-21",
+      "livros": [
+        {
+          "titulo": "Anatomia e ossos",
+          "autor": "Autor M",
+          "anoLancamento": 2014,
+          "assuntoLivro": "Medicina"
+        },
+        {
+          "titulo": "Fisioterapia e Reabilitação",
+          "autor": "Autor M",
+          "anoLancamento": 2016,
+          "assuntoLivro": "Medicina"
+        }
+      ]
+    },
+    
+    {
+      "id": "14",
+      "nome": "Fernanda Monge",
+      "idade": 34,
+      "ocupacao": "Jornalista",
+      "dataNascimento": "1990-05-21",
+      "livros": [
+        {
+          "titulo": "A Arte de Contar Histórias",
+          "autor": "Autor F",
+          "anoLancamento": 2014,
+          "assuntoLivro": "Jornalismo"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "nome": "Tiago Monge",
+      "idade": 29,
+      "ocupacao": "Fotógrafo",
+      "dataNascimento": "1995-03-10",
+      "livros": [
+        {
+          "titulo": "Luz e Sombra",
+          "autor": "Autor T",
+          "anoLancamento": 2017,
+          "assuntoLivro": "Fotografia"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "nome": "Patricia Monge",
+      "idade": 45,
+      "ocupacao": "Empresária",
+      "dataNascimento": "1979-11-02",
+      "livros": [
+        {
+          "titulo": "O Mundo dos Negócios",
+          "autor": "Autor P",
+          "anoLancamento": 2010,
+          "assuntoLivro": "Negócios"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "nome": "Eduardo Monge",
+      "idade": 38,
+      "ocupacao": "Músico",
+      "dataNascimento": "1986-07-13",
+      "livros": [
+        {
+          "titulo": "Harmonia e Melodia",
+          "autor": "Autor E",
+          "anoLancamento": 2012,
+          "assuntoLivro": "Música"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "nome": "Sofia Monge",
+      "idade": 22,
+      "ocupacao": "Estudante de Direito",
+      "dataNascimento": "2002-01-25",
+      "livros": [
+        {
+          "titulo": "Introdução ao Direito",
+          "autor": "Autor S",
+          "anoLancamento": 2021,
+          "assuntoLivro": "Direito"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "nome": "Rodrigo Monge",
+      "idade": 50,
+      "ocupacao": "Chef de Cozinha",
+      "dataNascimento": "1974-04-18",
+      "livros": [
+        {
+          "titulo": "Culinária pelo Mundo",
+          "autor": "Autor R",
+          "anoLancamento": 2005,
+          "assuntoLivro": "Gastronomia"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "nome": "Carla Monge",
+      "idade": 32,
+      "ocupacao": "Psicóloga",
+      "dataNascimento": "1992-08-30",
+      "livros": [
+        {
+          "titulo": "Entendendo a Mente Humana",
+          "autor": "Autor C",
+          "anoLancamento": 2015,
+          "assuntoLivro": "Psicologia"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "nome": "Leonardo Monge",
+      "idade": 28,
+      "ocupacao": "Engenheiro Civil",
+      "dataNascimento": "1996-06-12",
+      "livros": [
+        {
+          "titulo": "Construindo o Futuro",
+          "autor": "Autor L",
+          "anoLancamento": 2018,
+          "assuntoLivro": "Engenharia Civil"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "nome": "Isabela Monge",
+      "idade": 26,
+      "ocupacao": "Dentista",
+      "dataNascimento": "1998-02-17",
+      "livros": [
+        {
+          "titulo": "O Sorriso Perfeito",
+          "autor": "Autor I",
+          "anoLancamento": 2022,
+          "assuntoLivro": "Odontologia"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "nome": "Paulo Monge",
+      "idade": 40,
+      "ocupacao": "Advogado",
+      "dataNascimento": "1984-09-05",
+      "livros": [
+        {
+          "titulo": "Leis e Direitos",
+          "autor": "Autor P",
+          "anoLancamento": 2008,
+          "assuntoLivro": "Legislação"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "nome": "Renata Monge",
+      "idade": 33,
+      "ocupacao": "Médica Veterinária",
+      "dataNascimento": "1991-03-22",
+      "livros": [
+        {
+          "titulo": "Cuidando dos Animais",
+          "autor": "Autor R",
+          "anoLancamento": 2013,
+          "assuntoLivro": "Veterinária"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "nome": "Gustavo Monge",
+      "idade": 37,
+      "ocupacao": "Arquiteto",
+      "dataNascimento": "1987-12-14",
+      "livros": [
+        {
+          "titulo": "Arquitetura e Design",
+          "autor": "Autor G",
+          "anoLancamento": 2016,
+          "assuntoLivro": "Arquitetura"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "nome": "Aline Monge",
+      "idade": 24,
+      "ocupacao": "Designer Gráfico",
+      "dataNascimento": "2000-10-09",
+      "livros": [
+        {
+          "titulo": "Design Gráfico na Prática",
+          "autor": "Autor A",
+          "anoLancamento": 2023,
+          "assuntoLivro": "Design Gráfico"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "nome": "Marcelo Monge",
+      "idade": 39,
+      "ocupacao": "Programador",
+      "dataNascimento": "1985-07-30",
+      "livros": [
+        {
+          "titulo": "Programação para Iniciantes",
+          "autor": "Autor M",
+          "anoLancamento": 2011,
+          "assuntoLivro": "Programação"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "nome": "Daniela Monge",
+      "idade": 30,
+      "ocupacao": "Enfermeira",
+      "dataNascimento": "1994-06-18",
+      "livros": [
+        {
+          "titulo": "Fundamentos da Enfermagem",
+          "autor": "Autor D",
+          "anoLancamento": 2014,
+          "assuntoLivro": "Enfermagem"
+        }
+      ]
     }
+
+
   ]
 }

@@ -1,7 +1,5 @@
 <input type="text" placeholder="Filter by Name" #filter (keyup)="filterResults(filter.value)">
 
-    
-    
     <section class="monge__list" >
         <div class="monge__card" *ngFor="let monge of listaMonges">
             <p> {{monge.nome}} </p>

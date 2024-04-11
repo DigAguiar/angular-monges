@@ -14,7 +14,7 @@ export class MongesComponent implements OnInit{
   
   constructor(
     private listService: ListaMongeService,
-    private searchBarSerice : SearchBarService
+    private searchBarService : SearchBarService
   ) {
     this.listService.getAllMonges().then((listaMonges : IMonge[]) => {
       this.listaMonges = listaMonges;
@@ -33,7 +33,7 @@ export class MongesComponent implements OnInit{
 
 
   filterResults(text: string) {
-    this.listaMonges = this.searchBarSerice.filterResultsService(text);
+    this.listaMonges = this.searchBarService.filterResultsService(text);
   }
 
 }

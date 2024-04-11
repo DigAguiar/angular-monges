@@ -1,11 +1,11 @@
 /* navbar.component.css */
 .navbar {
-    background-color: #a0a0a0e0;
+    background-color: #0D47A1;
     padding: 10px 0;
   }
   
   .navbar-brand {
-    color: #333;
+    color: #FFFFFF;
     font-size: 24px;
   }
 
@@ -50,12 +50,12 @@
   
   
   a {
-    margin: 15px;
+    margin: 10px;
   }
 
   a.plus-button {
     font-size: 25px;
-    color: #333;
+    color: #4CAF50;
   }
 
   a.plus-button:hover {
@@ -66,5 +66,6 @@
 
   .contador {
     font-weight: bold;
+    color: #dcdcdc;
   }
   
